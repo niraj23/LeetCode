@@ -5,7 +5,7 @@
  */
 var myPow = function(x, n) {
     if(x === 0 || x === 1) return x;
-    if(n === 0) return 1;
+    if(n === 0) return 1.00000;
     
     return Math.pow(x,n).toFixed(5)
 };
